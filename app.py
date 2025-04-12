@@ -6,7 +6,7 @@ from scipy import stats
 from efficientnet.tfkeras import EfficientNetB4
 
 def create_app():
-    client= MongoClient("mongodb+srv://naveen:"+urllib.parse.quote("tns@9900")+"@capstone-project.1aslv4m.mongodb.net/test")
+    client= MongoClient("Enter your connection string here")
 
     from tensorflow.keras.models import load_model
     from tensorflow.keras.preprocessing import image
